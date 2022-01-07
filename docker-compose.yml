@@ -20,7 +20,7 @@ services:
     environment:
       MYSQL_DATABASE: common 
       MYSQL_USER: hiroki
-      MYSQL_PASSWORD: hiroki
+      MYSQL_PASSWORD: password
       MYSQL_ROOT_PASSWORD: password
     ports:
       - "3301:3306"
